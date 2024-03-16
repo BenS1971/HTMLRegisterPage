@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Register Page</title>
+    <link rel="stylesheet" href="./main.css" />
+    <title>Register Page</title>
 </head>
 <body>
-    
+    <header>
+        <a href="#">About Us</a>
+        <a href="#">Log In</a>
+    </header>
+    <br/>
+    <br/>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form>
+            <div>            
+                <input type="email" 
+                placeholder="Email" 
+                name ="email" required/>
+            </div>
+            <div>
+                <input type="text"  
+                placeholder="Username" 
+                name="username" required/>
+            </div>
+            <div>
+                <input type="password" 
+                placeholder="Password" 
+                name="password" required/>
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" required/>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <br />
+        <footer>
+            <img src="./assets/faceBook.png" alt="Facebook icon" height="32" width="32"/>
+            <img src="./assets/instaGram.png" alt="Instagram logo" height="32" width="32"/>
+            <img src="assets/youtube.png" alt="YouTube logo" height="32" width="32"/>
+        </footer>
+    </div>
 </body>
 </html>
